@@ -2,8 +2,6 @@ import asyncio
 import os
 import discord
 from discord.ext import commands
-from cogs.greetings import Greetings
-from cogs.utility import Utility
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 
